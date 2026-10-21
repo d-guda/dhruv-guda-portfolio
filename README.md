@@ -4,7 +4,7 @@ Selected work in cybersecurity risk analysis, web security, threat modeling, and
 
 | Project | What it demonstrates | Evidence |
 | --- | --- | --- |
-| Mojang Studios risk assessment | Asset identification, a project-defined 4 × 4 matrix, proposed treatments, and modeled residual risk | [PDF](coursework/mojang-risk-assessment/reports/mojang-risk-assessment.pdf) · [Company research CSV](coursework/mojang-risk-assessment/data/Mojang%20Studios%20Risk%20Assessment%20-%20Company%20information%20.csv) |
+| Mojang Studios risk assessment | Asset identification, a project-defined 4 × 4 matrix, proposed treatments, and modeled residual risk | [PDF](coursework/mojang-risk-assessment/data/Mojang%20Studios%20Risk%20Assessment.pdf) |
 | Web security analysis and login lab | Analysis of OWASP Juice Shop plus a Node.js/SQLite educational application with intentional SQL injection and MD5 hashing | [PDF](coursework/web-security-lab/reports/web-security-analysis.pdf) · [Code and setup](coursework/web-security-lab/README.md) |
 | Financial-services risk assessment | Anonymized public-information scenarios, potential impact, external-tool limitations, and proposed safeguards | [PDF](coursework/financial-services-risk-assessment/reports/financial-services-risk-assessment.pdf) |
 | S.O.F.T. financial threat model | Team-developed threat categories, qualitative scoring, a hypothetical worked example, and conceptual trust boundaries | [PDF](coursework/soft-threat-model/reports/soft-threat-model.pdf) · [Diagram and sources](coursework/soft-threat-model/SOURCES.md) |

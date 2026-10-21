@@ -4,7 +4,7 @@ Selected coursework in risk assessment and web security. Reports are presented a
 
 | Project | Focus | Reports | Data or code |
 | --- | --- | --- | --- |
-| Mojang Studios risk assessment | Asset identification, likelihood-impact scoring, and proposed risk treatments | [Read PDF](mojang-risk-assessment/reports/mojang-risk-assessment.pdf) | [Company research CSV](mojang-risk-assessment/data/Mojang%20Studios%20Risk%20Assessment%20-%20Company%20information%20.csv) |
+| Mojang Studios risk assessment | Asset identification, likelihood-impact scoring, and proposed risk treatments | [Read PDF](mojang-risk-assessment/data/Mojang%20Studios%20Risk%20Assessment.pdf) | Report-based project |
 | Web security analysis and login lab | Web vulnerability analysis and an intentionally vulnerable local login application | [Read PDF](web-security-lab/reports/web-security-analysis.pdf) | [Lab and setup](web-security-lab/README.md) |
 | Financial-services risk assessment | Anonymized analysis of phishing, vendor compromise, and ransomware scenarios | [Read PDF](financial-services-risk-assessment/reports/financial-services-risk-assessment.pdf) | Report-based project |
 | S.O.F.T. financial threat model | Team-developed conceptual framework with explicit scoring, a hypothetical worked example, and trust boundaries | [Read PDF](soft-threat-model/reports/soft-threat-model.pdf) | [Diagram and sources](soft-threat-model/SOURCES.md); no deployed implementation claimed |
