@@ -87,7 +87,7 @@ function handleRegister(request, response, database) {
     }
 
     try {
-      // Registration stays safe so the lab database remains usable.
+      // Registration uses bound parameters; password hashing remains deliberately weak.
       database.prepare('INSERT INTO users (email, password) VALUES (?, ?)')
         .run(email.trim(), hashPassword(password));
       sendJson(response, 201, { ok: true, message: 'Account created. You can now log in.' });

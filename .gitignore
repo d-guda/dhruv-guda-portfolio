@@ -1,2 +1,28 @@
-# macOS metadata
+# Operating-system metadata
 .DS_Store
+Thumbs.db
+
+# Credentials and local state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+
+# Dependencies, generated output, and local tooling
+node_modules/
+.next/
+dist/
+build/
+coverage/
+__pycache__/
+.venv/
+venv/
+*.log

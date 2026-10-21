@@ -6,6 +6,14 @@ I built and continue to manage the website for Company N-1, my outfit in the Tex
 **Website:** [n1-knights.com](https://n1-knights.com)  
 **Source:** [d-guda/n1-knights-site](https://github.com/d-guda/n1-knights-site)
 
+## Screenshots
+
+Captured from the public website on October 21, 2026. Desktop and mobile home pages loaded successfully; no horizontal overflow was observed at the captured sizes. Form delivery was not tested in this review.
+
+![Desktop home page](screenshots/desktop.png)
+
+[View mobile home page](screenshots/mobile.png)
+
 ## Why I built it
 
 The outfit needs a digital home that presents its identity and keeps useful information accessible beyond word of mouth. I built the site to support recruiting, preserve company history and photos, share cadet-written news, and make game-day information easier to find.
@@ -31,6 +39,10 @@ The outfit needs a digital home that presents its identity and keeps useful info
 | Analytics | Vercel Analytics integrated into the shared layout |
 
 Visitors reach pages through Next.js. Server-side loaders read repository content and pass structured data to page and archive components. Form handlers validate input and send it to the configured destination; no form responses or integration secrets are included in this showcase.
+
+## Maintenance example
+
+A recorded maintenance change updated alumni navigation and the donation link across the shared navigation, page shell, and alumni content. See [the navigation maintenance commit](https://github.com/d-guda/n1-knights-site/commit/adbc251). This documents ongoing maintenance without claiming measured recruiting or traffic improvements.
 
 ## Value to the outfit
 

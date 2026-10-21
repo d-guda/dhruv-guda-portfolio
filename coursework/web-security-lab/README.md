@@ -1,6 +1,6 @@
 # Web Security Lab
 
-A local JavaScript/SQLite login application demonstrating account registration, database persistence, credential comparison, and an intentional SQL-injection bypass. The accompanying [web security analysis PDF](reports/juice-shop-dom-xss.pdf) documents the training observations.
+A local JavaScript/SQLite login application demonstrating account registration, database persistence, credential comparison, and an intentional SQL-injection bypass. The accompanying [web security analysis PDF](reports/web-security-analysis.pdf) documents the training observations.
 
 > **Educational lab — intentionally vulnerable.** SQL injection and MD5 password hashes remain for controlled study. Use only in an isolated environment you own or are explicitly authorized to test. Never enter real credentials or deploy publicly. See [security guidance](../SECURITY.md).
 

@@ -1,19 +1,14 @@
-# Assessment Limitations and Control Review
+# Assessment Method and Limitations
 
-The risk register preserves early proposed controls, including wording that needs refinement. The review below identifies conceptual limitations and recommended corrections; no company controls were implemented.
+The PDF and CSV reflect the corrected educational assessment. Proposed controls are recommendations; no controls were deployed or tested against company systems.
 
-| Entry or area | Problem | Recommended correction |
-| --- | --- | --- |
-| ID 1: phones | Confusing passcode encryption wording | Describe device encryption, strong local unlock protection, managed access, and revocation separately. |
-| ID 2: badges | Proposal refers to lost laptops | Correct the asset reference to badges and explain rapid access revocation. |
-| ID 3: IP storage | An ordinary stored hash alone does not establish trustworthy integrity | Explain who protects the expected hash; use an authenticated integrity mechanism where required. |
-| ID 4: source code | Claims a firewall can be virtually unbreakable; relies on MAC addresses | Remove the absolute claim. Explain identity-based access, least privilege, release approval, and network controls as layered proposals. MAC filtering is not proof of user identity. |
-| IDs 5–6: identity and customer records | Describes password encryption alongside other data | Distinguish password hashing from encryption of recoverable sensitive data. See [OWASP password-storage guidance](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html). |
-| ID 6: customer records | Unmarked servers do not establish security | State actual access, encryption, monitoring, and data-retention controls instead. |
-| ID 7: backups | Recovery intervals and retention are asserted without justification | Connect them to explicit recovery objectives and restoration tests. |
-| All owners and costs | Every asset is assigned to CEO; costs lack calculation support | Label as assumptions and refine operational ownership and estimate basis. |
-| Target scores | Six entries remain above their target upper bounds | Explain additional treatment, acceptance, or revised targets; do not claim all targets were met. |
-| Original scale | Ranges overlap at 12 and are awkward for integer products | Define mutually exclusive integer bands before assigning risk-category labels. The CSV keeps numeric scores and makes no new band assignments. |
-| Sources | CurseForge URL has a trailing `/!!!`; filing note has no direct link | Verify a replacement or archived URL while retaining original provenance. |
+- **Scope:** 20 candidate assets/risk areas. Actual company architecture, control coverage, identities, owner appointments, budgets, and incident frequencies were not verified.
+- **Method:** NIST SP 800-30 informs assessment concepts. The project-defined 4 x 4 matrix uses an assumed 12-month horizon and qualitative likelihood/impact judgments, not calibrated probabilities.
+- **Bands:** 1–3 Low; 4–7 Moderate; 8–11 High; 12–16 Very High. Numeric targets are separate goals and can cross bands.
+- **Residual scores:** Hypotheses assuming effective controls. Retained impact reductions require scenario-specific justification; scores are not measured improvement.
+- **Costs:** Original $10K/$100K/$1M annual order-of-magnitude placeholders. No verified quotes or resource calculations. Shared controls can overlap, so the entries are not an additive validated budget.
+- **Ownership:** Proposed operational functions, not verified Mojang staff appointments or provider responsibilities.
+- **Above target:** IDs 4, 5, 6, 11, 13, and 15 require further treatment, documented owner acceptance, or reassessment. Scores were not lowered merely to meet targets.
+- **History and boundaries:** 2014 deployment descriptions and historic incidents do not establish current internal architecture. The 2024 Microsoft incident is parent-company context, not proof of a Mojang breach.
 
-Read the proposal column alongside this critique. Suggested corrections are not implemented controls or evidence that risk was reduced.
+The PDF gives readable scores, controls, and references. The CSV preserves editable detail and proposed verification steps. See [sources](SOURCES.md).

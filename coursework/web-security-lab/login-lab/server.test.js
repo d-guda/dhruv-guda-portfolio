@@ -29,7 +29,7 @@ test('login allows SQL-shaped input and a short non-empty password', () => {
 });
 
 test('accounts persist after the database is closed and reopened', (context) => {
-  const directory = fs.mkdtempSync(path.join(os.tmpdir(), 'cs477-login-'));
+  const directory = fs.mkdtempSync(path.join(os.tmpdir(), 'login-lab-'));
   const filename = path.join(directory, 'users.db');
   context.after(() => fs.rmSync(directory, { recursive: true }));
 
