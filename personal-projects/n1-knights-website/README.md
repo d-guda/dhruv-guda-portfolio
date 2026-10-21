@@ -47,15 +47,3 @@ A recorded maintenance change updated alumni navigation and the donation link ac
 ## Value to the outfit
 
 The site brings company identity, information, and archives together under one address. Its content structure also gives future maintainers a way to keep the site useful as cadets and leadership change.
-
-## Implementation references
-
-The description above follows the source at commit `9b16a79`. This folder is a project showcase; the application remains in its source repository.
-
-- [Stack and scripts](https://github.com/d-guda/n1-knights-site/blob/9b16a796ddcf92f8e8484c439a6f3fb4888146a5/package.json)
-- [Shared layout and analytics](https://github.com/d-guda/n1-knights-site/blob/9b16a796ddcf92f8e8484c439a6f3fb4888146a5/app/layout.tsx)
-- [Home page](https://github.com/d-guda/n1-knights-site/blob/9b16a796ddcf92f8e8484c439a6f3fb4888146a5/app/page.tsx) and [navigation](https://github.com/d-guda/n1-knights-site/blob/9b16a796ddcf92f8e8484c439a6f3fb4888146a5/components/Navbar.tsx)
-- [Content loading](https://github.com/d-guda/n1-knights-site/blob/9b16a796ddcf92f8e8484c439a6f3fb4888146a5/lib/content.ts), [game-day parsing](https://github.com/d-guda/n1-knights-site/blob/9b16a796ddcf92f8e8484c439a6f3fb4888146a5/lib/gamedayMarkdown.ts), and [event-time conversion](https://github.com/d-guda/n1-knights-site/blob/9b16a796ddcf92f8e8484c439a6f3fb4888146a5/lib/eventTime.ts)
-- [Gallery implementation](https://github.com/d-guda/n1-knights-site/blob/9b16a796ddcf92f8e8484c439a6f3fb4888146a5/components/GalleryArchive.tsx) and [news article route](https://github.com/d-guda/n1-knights-site/blob/9b16a796ddcf92f8e8484c439a6f3fb4888146a5/app/newsroom/%5Bslug%5D/page.tsx)
-- [Form handlers](https://github.com/d-guda/n1-knights-site/blob/9b16a796ddcf92f8e8484c439a6f3fb4888146a5/app/actions.ts) and [input validation](https://github.com/d-guda/n1-knights-site/blob/9b16a796ddcf92f8e8484c439a6f3fb4888146a5/lib/security.ts)
-- [Contributor and deployment workflow](https://github.com/d-guda/n1-knights-site/blob/9b16a796ddcf92f8e8484c439a6f3fb4888146a5/README.md)
