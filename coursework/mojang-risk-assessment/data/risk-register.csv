@@ -1,0 +1,61 @@
+risk_id,asset,assumed_owner,likelihood_1_to_4,impact_1_to_4,inherent_risk,original_proposed_controls,annual_cost_estimate,assumed_treated_likelihood,assumed_treated_impact,modeled_residual_risk,target_score_range,treatment_type
+1,Company provided phones,CEO,4,3,12,"1. Encyprtion of passcodes for employees to learn
+2. Multiple authnitcaition methods (thumb/face & passcode)
+3. Immediate reporting of loss or stolen of property",$10K,2,2,4,1-4,Remediation
+2,Company provided badges,CEO,4,4,16,"1. Biometeric scnning along with required badge access
+2. Abilitiy to deactivie badges once stolen or lost 
+3. Immediate reporting of lost or sotlen laptops",$10K,2,3,6,4-7,Remediation
+3,Storage items with Comapny IP,CEO,4,4,16,"1. Encryption of password to access devices 
+2. Safe storage of Hashes of data to make sure the data or files are unchanged
+3. Storage and access to the devices along with an in-depth tracking of location of device",$10K,2,3,6,4-7,Remediation
+4,Minecraft source code and game builds,CEO,3,4,12,"1. Creating a firewall structure around the system to make it virtaully unbreakeable even by people with the correct acess codes
+2. Making the source code only accessable from highly limited MAC Adresses.
+3. Securing all valid MAC Adresses that can affect the source code and gamebuilds",$100K,2,4,8,4-7,Remediation
+5,Microsoft account authentication and identity data,CEO,3,4,12,"1. Encryption of users passwords 
+2. Limited availability to the structure of the account authentication process
+3. Securing of the physical servers that host the account data",$100K,2,4,8,4-7,Remediation
+6,Customer PII and purchase records,CEO,3,4,12,"1. Encryption of user passwods, emails, billing informaiton 
+2. Focus on securing billing informaiton and not as much actual transactional information
+3. Various unmarkerd servers around the world that host seperate partial data",$100K,2,4,8,4-7,Remediation
+7,Minecraft Realms worlds and backups,CEO,3,4,12,"1. Continously running scans and monitoring realm data for any intrusions (IDS systems)
+2. Updating a true back up of the realm every 2 days when it is being used, and keeping backups up to 20 days before deleting.  
+3. Make sure to keep access to the realm data limited to only higher management and support teams.",$100K,2,3,6,4-7,Remediation
+8,Realms hosting infrastructure and databases,CEO,2,4,8,"1. Continuously patch and harden hosting servers and databases
+2. Limit production access with multi-factor authentication and least-privilege permissions
+3. Maintain replicated backups and regularly test failover and data recovery",$1M,1,3,3,1-4,Remediation
+9,Minecraft Marketplace and Minecoin transaction records,CEO,3,4,12,"1. Encrypt Marketplace and Minecoin transaction records while stored and transmitted
+2. Limit payment and Marketplace administrator access with multi-factor authentication
+3. Continuously monitor transaction logs for fraud and unusual account activity",$100K,2,3,6,4-7,Remediation
+10,Creator partner content and submission pipeline,CEO,3,4,12,"1. Scan all creator submissions for malware and prohibited code before publication
+2. Test creator content inside an isolated environment before approving the submission
+3. Require verified creator accounts, version history, and approval before content is released",$100K,2,3,6,4-7,Remediation
+11,Game update and software distribution systems,CEO,3,4,12,"1. Digitally sign every game update and verify file hashes before distribution
+2. Limit build and release permissions with multi-factor authentication and separate administrator accounts
+3. Monitor distribution systems and maintain a tested rollback copy of the previous stable release",$100K,2,4,8,4-7,Remediation
+12,Mojang employee accounts and collaboration systems,CEO,4,4,16,"1. Require multi-factor authentication and unique passwords for employee accounts
+2. Limit account permissions and regularly disable unused or former employee accounts
+3. Train employees against phishing and alert security teams about unusual login activity",$10K,2,3,6,4-7,Remediation
+13,Development workstations and code-signing credentials,CEO,4,4,16,"1. Encrypt development workstations and continuously patch and monitor them with endpoint protection
+2. Store code-signing credentials in protected hardware with access limited to approved employees
+3. Require approval for release signing and keep an audit log of every use of the credentials",$100K,2,4,8,4-7,Remediation
+14,"Minecraft brand, trademarks, and licensing agreements",CEO,4,3,12,"1. Store licensing agreements and trademark records in an encrypted centralized repository
+2. Limit editing permissions and keep version history for all legal documents
+3. Monitor for fraudulent domains, counterfeit content, and unauthorized use of the Minecraft brand",$10K,2,2,4,1-4,Remediation
+15,Vulnerabilities and attacks sources on third-party cloud and platform vendor services,CEO,4,4,16,"1. Perform security reviews of third-party vendors before granting access to Mojang systems
+2. Require vendors to report vulnerabilities and incidents and to maintain supported, patched services
+3. Maintain backups, alternate service options, and a documented plan for vendor outages",$100K,3,3,9,4-7,Remediation
+16,"Player chat, moderation, and trust-and-safety data",CEO,4,3,12,"1. Encrypt chat and moderation records and restrict access to authorized trust-and-safety employees
+2. Use automated filtering with human review and an easy process for players to report harmful content
+3. Set retention limits and remove or anonymize player data when it is no longer needed",$1M,2,2,4,1-4,Remediation
+17,"Production monitoring, logs, and incident-response records",CEO,4,4,16,"1. Store security logs in a centralized system that prevents unauthorized changes or deletion
+2. Restrict log access with multi-factor authentication and least-privilege permissions
+3. Back up important logs and regularly test incident-response procedures using recorded events",$100K,2,3,6,4-7,Remediation
+18,Physical offices and on-site network equipment,CEO,3,4,12,"1. Require badge access, visitor records, and camera monitoring for restricted office areas
+2. Segment office networks and keep firewalls, wireless systems, and network equipment patched
+3. Maintain an equipment inventory and lock servers and critical network devices in secure rooms",$100K,2,3,6,4-7,Remediation
+19,Customer-support tickets and account-recovery records,CEO,3,3,9,"1. Encrypt customer-support tickets and remove unnecessary payment or identity information
+2. Verify a player's identity before account recovery and require multi-factor authentication for support employees
+3. Limit ticket access, log employee activity, and delete records after a certain retention period",$100K,2,2,4,1-4,Remediation
+20,"Mojang public websites, APIs, and DNS records",CEO,4,3,12,"1. Protect public websites and APIs with a web application firewall, limiting, and DDoS protection
+2. Secure DNS and domain registrar accounts with multi-factor authentication and registry locks
+3. Patch and scan public systems while continuously monitoring certificates, changes, and service availability",$100K,2,2,4,1-4,Remediation

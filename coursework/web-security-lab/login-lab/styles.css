@@ -1,0 +1,138 @@
+:root {
+  color-scheme: dark;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #303030;
+  color: #f5f5f5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #303030;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-height: 64px;
+  padding: 0 1.5rem;
+  background: #6a7b2b;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 35%);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.logo {
+  font-size: 1.8rem;
+}
+
+main {
+  min-height: calc(100vh - 64px);
+  padding: 1.5rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 430px));
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.lab-warning {
+  max-width: 884px;
+  margin: 0 auto 1.5rem;
+  padding: 1rem;
+  border: 1px solid #e6b450;
+  border-radius: 6px;
+  background: #42351d;
+  color: #fff0ce;
+  line-height: 1.5;
+}
+
+.lab-warning strong {
+  display: block;
+}
+
+.login-card {
+  width: min(100%, 430px);
+  padding: 2rem;
+  border-radius: 6px;
+  background: #424242;
+  box-shadow: 0 8px 28px rgb(0 0 0 / 35%);
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-size: 1.75rem;
+}
+
+.subtitle {
+  margin: 0.5rem 0 1.75rem;
+  color: #d2d2d2;
+}
+
+form {
+  display: grid;
+  gap: 0.75rem;
+}
+
+label {
+  font-weight: 700;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0.8rem;
+  border: 1px solid #8e8e8e;
+  border-radius: 4px;
+  background: #303030;
+  color: #fff;
+  font: inherit;
+}
+
+input:focus {
+  outline: 3px solid #b5cc57;
+  outline-offset: 1px;
+}
+
+button {
+  margin-top: 0.5rem;
+  padding: 0.85rem;
+  border: 0;
+  border-radius: 4px;
+  background: #8aa12f;
+  color: #111;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #a4bc3c;
+}
+
+.form-message {
+  min-height: 1.3rem;
+  margin-top: 0.5rem;
+}
+
+.error {
+  color: #ff8a80;
+}
+
+.success {
+  color: #b9f6ca;
+}
+
+@media (max-width: 760px) {
+  .card-grid {
+    grid-template-columns: minmax(0, 430px);
+  }
+}

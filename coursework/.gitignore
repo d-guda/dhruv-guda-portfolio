@@ -1,0 +1,28 @@
+# Local state and real credentials
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+node_modules/
+__pycache__/
+.venv/
+venv/
+coverage/
+*.log
+tmp/
+.idea/
+.vscode/
+
+# Original submissions belong outside this publication package.
+private/
+originals/
+submissions/

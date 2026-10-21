@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juice Shop Login Lab</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <span class="logo" aria-hidden="true">🍊</span>
+      <span>Juice Shop Login Lab</span>
+    </header>
+
+    <main>
+      <aside class="lab-warning" aria-label="Educational lab warning">
+        <strong>Educational security lab — intentionally vulnerable.</strong>
+        SQL injection and weak MD5 password hashing remain for controlled study.
+        Use only on your own isolated computer. Never enter real passwords or deploy publicly.
+      </aside>
+      <div class="card-grid">
+        <section class="login-card" aria-labelledby="login-title">
+          <h1 id="login-title">Login</h1>
+          <p class="subtitle">Use an existing account—or test the lab vulnerability.</p>
+
+          <form id="login-form" novalidate>
+            <label for="login-email">Email</label>
+            <input id="login-email" name="email" type="text" autocomplete="email" required>
+
+            <label for="login-password">Password</label>
+            <input id="login-password" name="password" type="password" autocomplete="current-password" required>
+
+            <button type="submit">Log in</button>
+            <div class="form-message" role="alert" aria-live="polite"></div>
+          </form>
+        </section>
+
+        <section class="login-card" aria-labelledby="register-title">
+          <h2 id="register-title">Create account</h2>
+          <p class="subtitle">Accounts remain in the local SQLite database.</p>
+
+          <form id="register-form" novalidate>
+            <label for="register-email">Email</label>
+            <input id="register-email" name="email" type="email" autocomplete="email" required>
+
+            <label for="register-password">Password</label>
+            <input id="register-password" name="password" type="password" autocomplete="new-password" minlength="8" required>
+
+            <button type="submit">Create account</button>
+            <div class="form-message" role="alert" aria-live="polite"></div>
+          </form>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
