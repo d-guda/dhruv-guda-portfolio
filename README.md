@@ -4,7 +4,7 @@ Selected work in cybersecurity competitions, risk analysis, web security, threat
 
 | Project | What it demonstrates | Evidence |
 | --- | --- | --- |
-| Texas A&M System Fall CTF — Disarm Me | 3rd-place team finish; documented DNS enumeration, Windows access, hash recovery, password cracking, and an internal SSH pivot | [Competition showcase](competitions/texas-am-system-fall-ctf-disarm-me/README.md) · [Report folder](competitions/texas-am-system-fall-ctf-disarm-me/reports/) |
+| Texas A&M System Fall CTF — Disarm Me | 3rd-place team finish; documented DNS enumeration, Windows access, hash recovery, password cracking, and an internal SSH pivot | [Competition showcase](competitions/texas-am-system-fall-ctf-disarm-me/README.md) · [Report](competitions/texas-am-system-fall-ctf-disarm-me/Texas_A_M_System_Fall_CTF___Disarm_Me___ReadMe.pdf) |
 | Mojang Studios risk assessment | Asset identification, a project-defined 4 × 4 matrix, proposed treatments, and modeled residual risk | [PDF](coursework/mojang-risk-assessment/reports/Mojang%20Studios%20Risk%20Assessment.pdf) |
 | Web security analysis and login lab | Analysis of OWASP Juice Shop plus a Node.js/SQLite educational application with intentional SQL injection and MD5 hashing | [PDF](coursework/web-security-lab/reports/OWASP%20Juice%20Shop%20Web%20Security%20Analysis.pdf) · [Code and setup](coursework/web-security-lab/README.md) |
 | Financial-services risk assessment | Anonymized public-information scenarios, potential impact, external-tool limitations, and proposed safeguards | [PDF](coursework/financial-services-risk-assessment/reports/Financial%20Services%20Cybersecurity%20Risk%20Assessment.pdf) |
