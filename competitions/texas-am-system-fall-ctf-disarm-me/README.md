@@ -4,13 +4,7 @@
 
 My team placed third in the Texas A&M System Fall CTF — Disarm Me. This showcase documents my technical work from the competition, from initial network enumeration to an internal SSH pivot and VPN credential recovery.
 
-## Competition report
-
-**[Open the report folder](reports/)**
-
-The PDF upload is pending. The report folder is ready for the compiled `main.pdf` from the LaTeX writeup package.
-
-[Upload the PDF](https://github.com/d-guda/dhruv-guda-portfolio/upload/main/competitions/texas-am-system-fall-ctf-disarm-me/reports)
+## **[Competition Report](competitions/texas-am-system-fall-ctf-disarm-me/Texas_A_M_System_Fall_CTF___Disarm_Me___ReadMe.pdf)** 
 
 ## What this work demonstrates
 
