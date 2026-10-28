@@ -4,7 +4,7 @@
 
 My team placed third in the Texas A&M System Fall CTF — Disarm Me. This showcase documents my technical work from the competition, from initial network enumeration to an internal SSH pivot and VPN credential recovery.
 
-## **[Competition Report](competitions/texas-am-system-fall-ctf-disarm-me/Texas_A_M_System_Fall_CTF___Disarm_Me___ReadMe.pdf)** 
+## **[Competition Report](Texas_A_M_System_Fall_CTF___Disarm_Me___ReadMe.pdf)** 
 
 ## What this work demonstrates
 
